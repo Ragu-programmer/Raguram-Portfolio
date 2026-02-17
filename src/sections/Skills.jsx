@@ -3,9 +3,10 @@ import { motion } from 'framer-motion';
 
 const skills = {
     "Embedded & IoT": ["Microcontroller Peripherals", "Bare-metal Programming", "Bootloaders", "Flash Programming", "Communication Protocols (I2C, SPI, UART)", "PCB Design", "Hardware Debugging"],
-    "Software Development": ["C# .NET", "Angular", "WPF", "Blazor", "API Design", "Test Automation", "CI/CD (Jenkins)"],
-    "Languages": ["C", "C#", "Python", "JavaScript/HTML/CSS"],
-    "Tools": ["Visual Studio", "VS Code", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
+    "Software Development": ["C# .NET", "Angular", "RxJS", "Razor Pages", "REST API Design", "Automation Testing", "CI/CD (Jenkins)"],
+    "Languages": ["C", "C#", "Python", "Typescript", "JavaScript", "HTML", "CSS"],
+    "Generative AI": ["LLM", "Prompt Engineering", "RAG", "AI Agents"],
+    "Tools": ["Visual Studio", "VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
 };
 
 const Skills = () => {
