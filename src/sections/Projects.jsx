@@ -5,8 +5,8 @@ import ProjectModal from '../components/ProjectModal';
 
 const projects = [
     {
-        title: "Overlay Measurement Desktop App",
-        description: "A high-performance desktop application for overlay measurement in semiconductor wafers. Led the adoption of SonarQube static code analysis, improving code quality by 80%, and resolved critical show-stopper bugs during release cycles.",
+        title: "Desktop Application for Overlay Measurement in Semiconductor Wafers",
+        description: "A high-performance desktop application designed for overlay measurement in semiconductor wafers. Contributed to architecture and platform-level development to support precision measurement in semiconductor fabrication.",
         tech: ["C# .NET", "WPF", "C++", "Jenkins", "Git"],
         links: { github: "#", external: "#" },
         type: "app",
@@ -17,12 +17,11 @@ const projects = [
             "Resolved critical show-stopper issues during release cycles, preventing delivery delays and ensuring stable, on-time releases.",
             "Eliminated numerous compiler warnings and code smells, reducing technical debt and improving long-term maintainability and code safety.",
             "Leveraged AI-driven automation capabilities that reduced manual effort and improved the overall efficiency of script generation.",
-            "Collaborated closely with the DevOps team to integrate static code analysis into Jenkins pipelines, increasing early defect detection and reducing manual review effort."
         ]
     },
     {
-        title: "Target Identification Utility",
-        description: "Specialized desktop app for validating semiconductor targets. Implemented Azure Pipelines for CI/CD and optimized FlaUI-based automation tests, reducing test execution time by 50%.",
+        title: "Desktop Application for Targets Identification in Semiconductor Wafers",
+        description: "A specialized desktop application used to accurately identify and validate targets on semiconductor wafers, enabling measurement workflows in semiconductor manufacturing.",
         tech: ["C# .NET", "FlaUI", "Azure Pipelines", "Git"],
         links: { github: "#", external: "#" },
         type: "app",
@@ -30,14 +29,14 @@ const projects = [
         details: [
             "Developed a utility to automatically generate UI automation tests for newly added test cases from a specified directory, reducing manual test development effort.",
             "Implemented Azure Pipelines workflows to execute automated UI tests as part of CI, ensuring consistent validation and early defect detection on code changes.",
-            "Added and optimized FlaUI-based automation tests for newly introduced features, minimizing test execution time by half and reducing flaky test failures by approximately 50%.",
+            "Added and optimized FlaUI-based UI automation tests for newly introduced features, minimizing test execution time by half and reducing flaky test failures by approximately 50%.",
             "Integrated new UI automation tests with Azure Test Suites and configured scheduled weekly and monthly test runs to introduce continuous quality monitoring and test execution consistency."
         ]
     },
     {
-        title: "Semiconductor Test Data Web App",
-        description: "Full-stack Angular application for managing measurement systems. Designed table-based UI workflows and improved page response time by ~3 seconds. Achieved 80%+ automated test coverage.",
-        tech: ["Angular", "RxJS", "TypeScript", "REST API"],
+        title: "Web Application for Semiconductor Test Data Management and Visualization",
+        description: "A comprehensive full-stack software application designed to help manage, monitor, and analyze measurement systems in large-scale, distributed environments.",
+        tech: ["Angular", "RxJS", "TypeScript", "REST API", "Playwright"],
         links: { github: "#", external: "#" },
         type: "app",
         timeline: "Sept 2024 - Jan 2025",
@@ -93,7 +92,7 @@ const projects = [
     },
     {
         title: "i-Stacker (Smart India Hackathon 2022)",
-        description: "Built an autonomous robot to load/unload rice bags and stack them in FCI godowns. Addressed a problem statement proposed by the Central Govt. of India in Smart India Hackathon 2022.",
+        description: "A problem statement to build an autonomous robot to load/unload rice bags and stack them in FCI godowns proposed by the Central Government of India in Smart India Hackathon 2022.",
         tech: ["Robotics", "Automation", "Embedded Systems"],
         links: { github: "#", external: "#" },
         type: "competition",
@@ -122,7 +121,7 @@ const Projects = () => {
     return (
         <section id="projects" className="section container">
             <h2 style={{ display: 'flex', alignItems: 'center', fontSize: '1.8rem', color: 'var(--text-primary)', marginBottom: '3rem' }}>
-                <span className="text-accent" style={{ marginRight: '10px', fontFamily: 'var(--font-mono)' }}>03.</span> Some Things I've Built
+                Some Things I've Built
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
             </h2>
 

@@ -37,11 +37,11 @@ const Navbar = () => {
                 RK
             </a>
 
-            <ul style={{ display: 'flex', gap: '2rem', fontFamily: 'var(--font-mono)', fontSize: '0.8rem' }}>
+            <ul style={{ display: 'flex', gap: '2rem', fontFamily: 'var(--font-mono)', fontSize: '1rem' }}>
                 {['Experience', 'Projects', 'Skills', 'Contact'].map((item, index) => (
                     <li key={index}>
                         <a href={`#${item.toLowerCase()}`} style={{ color: 'var(--text-primary)' }}>
-                            <span className="text-accent" style={{ marginRight: '5px' }}>0{index + 2}.</span>
+                            {/* <span className="text-accent" style={{ marginRight: '5px' }}>0{index + 2}.</span> */}
                             {item}
                         </a>
                     </li>

@@ -9,7 +9,7 @@ const Contact = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
             >
-                <p className="text-accent" style={{ fontFamily: 'var(--font-mono)', marginBottom: '1.5rem' }}>05. What's Next?</p>
+                <p className="text-accent" style={{ fontFamily: 'var(--font-mono)', marginBottom: '1.5rem' }}>What's Next?</p>
                 <h2 style={{ fontSize: 'clamp(40px, 5vw, 60px)', color: 'var(--text-primary)', marginBottom: '1.5rem', fontWeight: 'bold' }}>Get In Touch</h2>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', marginBottom: '3rem' }}>
                     I'm currently looking for new opportunities, and my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!

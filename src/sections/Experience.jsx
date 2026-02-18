@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
-        role: "Staff Engineer - Contract",
+        role: "Project Engineer - Contract",
         company: "KLA India",
         date: "Feb 2025 - Dec 2025",
         description: [
-            "Developing scalable software features using C# .NET, WPF, and Blazor to enable multi-head functionality.",
-            "Integrated Static Code Analysis tools into Jenkins CI/CD pipelines to enforce high coding standards.",
-            "Resolving critical showstopper bugs effectively during release cycles."
+            "Developing scalable software features using C# .NET, WPF to enable multi-head and dual-stage functionality for measuring overlay in printed wafers during semiconductor fabrication.",
+            "Integrated a Static Code Analysis tool into the existing architecture and Jenkins CI/CD pipeline, to enforce high coding standards and clean code practices.",
+            "Resolving critical showstopper bugs during releases, while addressing key software Infrastructure team backlogs, enhancing overall system reliability and maintainability"
         ]
     },
     {
@@ -17,18 +17,19 @@ const experiences = [
         company: "Soliton Technologies Pvt Ltd",
         date: "Jan 2024 - Feb 2025",
         description: [
-            "Developed test-sequence logic and automated compliance checks for SoundWire (I2S) protocol validation.",
-            "Implemented core frontend/backend for 'SLE' web app using advanced searching and filtering.",
-            "Refactored test suites to achieve 100% automated test coverage."
+            "Developed test-sequence logic, timing-validation modules, and automated compliance checks for the SoundWire (I2S) protocol validation suite.",
+            "Implemented core frontend and backend components for an IC and battery testing web application called SLE (SystemLink Enterprise), including advanced search, sorting, filtering, and summary-tile features that improved user efficiency.",
+            "Refactored and expanded test suites to achieve 100% automated test coverage, strengthening regression reliability and release confidence"
         ]
     },
     {
-        role: "Embedded and IOT Intern",
+        role: "Level-3 Embedded and IOT Team Member",
         company: "iQube Innovation Centre - KCT",
         date: "Sep 2021 - May 2024",
         description: [
-            "Built embedded systems solutions for industrial problems using AVR, STM-32, and PIC microcontrollers.",
-            "Participated in national-level hackathons like Smart India Hackathon-2022 and Robocon 2023."
+            "Built solutions using embedded systems for multiple real-world industrial problem statements.",
+            "Learned and Developed embedded firmware on AVR, STM-32 and PIC microcontrollers, covering peripheral integration, protocol communication, and hardware-software integration.",
+            "Participated in multiple national-level events like Smart India Hackathon-2022 conducted by Central Govt of India, Robocon 2023 conducted by DD Robocon and other inter-college level events"
         ]
     }
 ];
@@ -37,7 +38,7 @@ const Experience = () => {
     return (
         <section id="experience" className="section container">
             <h2 style={{ display: 'flex', alignItems: 'center', fontSize: '1.8rem', color: 'var(--text-primary)', marginBottom: '3rem' }}>
-                <span className="text-accent" style={{ marginRight: '10px', fontFamily: 'var(--font-mono)' }}>02.</span> Where I've Worked
+                Where I've Worked
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
             </h2>
 

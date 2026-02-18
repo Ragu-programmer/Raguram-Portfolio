@@ -13,7 +13,7 @@ const Skills = () => {
     return (
         <section id="skills" className="section container" style={{ maxWidth: '800px' }}>
             <h2 style={{ display: 'flex', alignItems: 'center', fontSize: '1.8rem', color: 'var(--text-primary)', marginBottom: '3rem' }}>
-                <span className="text-accent" style={{ marginRight: '10px', fontFamily: 'var(--font-mono)' }}>04.</span> Skills & Technologies
+                Skills & Technologies
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
             </h2>
 
