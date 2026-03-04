@@ -50,16 +50,17 @@ const projects = [
     },
     {
         title: "Custom Bootloader for STM 32 MCU",
-        description: "Built a custom STM32 bootloader supporting firmware updates over UART/SPI with packet framing, sequencing, and checksum-based integrity verification.",
-        tech: ["C", "STM32", "UART/SPI", "Embedded"],
-        links: { github: "#", external: "#" },
+        description:"The STM32 Microcontroller Bootloader is a robust and versatile firmware solution designed to simplify the software update process for STM32 microcontrollers.",
+        tech: ["Embedded C", "STM32", "UART", "CAN", "C++"],
+        links: { github: "https://github.com/Ragu-programmer/Custom-Bootloader-for-STM-32-MCU/tree/main", external: "#" },
         type: "embedded",
         timeline: "Jan 2024 - May 2024",
         details: [
-            "Built a custom STM32 bootloader supporting firmware updates over UART/SPI.",
-            "Implemented packet framing, sequencing, and checksum-based integrity verification.",
-            "Implemented flash erase/write program operations using STM32’s Flash Control interface.",
-            "Added recovery paths for corrupted firmware transfers to address reliability constraints."
+            "It offers support for both USART and CAN communication protocols, providing flexibility to accommodate a wide range of hardware configurations and use cases.",
+            "In addition, this project includes a Qt C++ Graphical User Interface (GUI) application that enhances the bootloader's functionality.",
+            "This GUI facilities the process of flashing images to the STM32 microcontroller, making the software update procedure even more user-friendly.",
+            "This offers Dual Communication Modes: Choose between USART and CAN communication protocols based on your hardware configuration, providing adaptability for different project requirements",
+            "This comes with Effortless Hex File Transfer: The GUI application, developed using Qt C++, allows you to parse and transmit hex files very quickly to the bootloader, streamlining software updates."
         ]
     },
     {
