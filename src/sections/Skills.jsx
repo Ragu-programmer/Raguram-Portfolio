@@ -17,7 +17,7 @@ const Skills = () => {
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
             </h2>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
+            <div className="skills-grid">
                 {Object.entries(skills).map(([category, items], index) => (
                     <motion.div
                         key={index}

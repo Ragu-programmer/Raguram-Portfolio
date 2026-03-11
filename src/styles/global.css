@@ -59,6 +59,15 @@ ul {
   color: var(--text-accent);
 }
 
+.nav-link {
+  color: var(--text-primary);
+  transition: var(--transition-fast);
+}
+
+.nav-link:hover {
+  color: var(--text-accent);
+}
+
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -90,3 +99,62 @@ ul {
   border: 3px solid var(--bg-primary);
   border-radius: 10px;
 }
+
+/* Responsive Classes */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+}
+
+.experience-card {
+  padding: 2rem;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  border-left: 4px solid var(--text-accent);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .experience-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+

@@ -126,7 +126,7 @@ const Projects = () => {
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
             </h2>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem' }}>
+            <div className="project-grid">
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}

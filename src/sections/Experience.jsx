@@ -50,12 +50,7 @@ const Experience = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
-                        style={{
-                            padding: '2rem',
-                            background: 'var(--bg-secondary)',
-                            borderRadius: '8px',
-                            borderLeft: '4px solid var(--text-accent)'
-                        }}
+                        className="experience-card"
                     >
                         <h3 style={{ color: 'var(--text-primary)', fontSize: '1.3rem', marginBottom: '0.5rem' }}>
                             {exp.role} <span className="text-accent">@ {exp.company}</span>
