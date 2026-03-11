@@ -158,3 +158,49 @@ ul {
   }
 }
 
+/* Social Icon Circles */
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--text-accent);
+  color: var(--text-primary);
+  transition: var(--transition-fast);
+}
+
+.social-icon:hover {
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--text-accent);
+  transform: translateY(-3px);
+}
+
+/* Contact Section */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.contact-input:focus {
+  border-color: var(--text-accent) !important;
+  background: var(--bg-secondary) !important;
+}
+
+.contact-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+
+

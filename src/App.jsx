@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Contact />
       <footer style={{ textAlign: 'center', padding: '2rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
-        <p>Built with React & Vite by Raguram Kasthurisamy</p>
+        <p>© Copyright Raguram Kasthurisamy. All Rights Reserved</p>
       </footer>
     </div>
   );
