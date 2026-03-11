@@ -146,11 +146,12 @@ const Hero = () => {
             transition={{ delay: 2.0, duration: 0.5 }}
           >
             <a
-              href="#projects"
+              href="/resume.pdf"
+              download="Raguram_Kasthurisamy_Resume.pdf"
               className="btn"
               style={{ fontSize: "1rem", padding: "1rem 2rem" }}
             >
-              Check out my work!
+              Download my resume
             </a>
           </motion.div>
         </div>
