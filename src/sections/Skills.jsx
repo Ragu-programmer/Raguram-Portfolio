@@ -5,7 +5,7 @@ const skills = {
     "Embedded & IoT": ["Microcontroller Peripherals", "Bare-metal Programming", "Bootloaders", "Flash Programming", "Communication Protocols (I2C, SPI, USART)", "PCB Design", "Hardware Debugging"],
     "Software Development": ["C# .NET", "Angular", "RxJS", "Razor Pages", "REST API Design", "Automation Testing", "CI/CD (Jenkins)"],
     "Languages": ["C", "C#", "Python", "Typescript", "JavaScript", "HTML", "CSS"],
-    "Generative AI": ["LLM", "Prompt Engineering", "RAG", "AI Agents"],
+    "Generative AI": ["LLM", "Prompt Engineering", "RAG", "MCP", "AI Agents"],
     "Tools": ["Visual Studio", " VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
 };
 
