@@ -11,7 +11,7 @@ const skills = {
 
 const Skills = () => {
     return (
-        <section id="skills" className="section container" style={{ maxWidth: '800px' }}>
+        <section id="skills" className="section container" style={{ maxWidth: '810px' }}>
             <h2 style={{ display: 'flex', alignItems: 'center', fontSize: '1.8rem', color: 'var(--text-primary)', marginBottom: '3rem' }}>
                 Skills & Technologies
                 <span style={{ marginLeft: '20px', height: '1px', background: 'var(--bg-tertiary)', flex: 1, maxWidth: '300px' }}></span>
