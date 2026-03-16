@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = {
-    "Embedded & IoT": ["Microcontroller Peripherals", "Bare-metal Programming", "Bootloaders", "Flash Programming", "Communication Protocols (I2C, SPI, UART)", "PCB Design", "Hardware Debugging"],
+    "Embedded & IoT": ["Microcontroller Peripherals", "Bare-metal Programming", "Bootloaders", "Flash Programming", "Communication Protocols (I2C, SPI, USART)", "PCB Design", "Hardware Debugging"],
     "Software Development": ["C# .NET", "Angular", "RxJS", "Razor Pages", "REST API Design", "Automation Testing", "CI/CD (Jenkins)"],
     "Languages": ["C", "C#", "Python", "Typescript", "JavaScript", "HTML", "CSS"],
     "Generative AI": ["LLM", "Prompt Engineering", "RAG", "AI Agents"],
