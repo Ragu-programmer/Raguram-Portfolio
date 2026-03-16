@@ -6,7 +6,7 @@ const skills = {
     "Software Development": ["C# .NET", "Angular", "RxJS", "Razor Pages", "REST API Design", "Automation Testing", "CI/CD (Jenkins)"],
     "Languages": ["C", "C#", "Python", "Typescript", "JavaScript", "HTML", "CSS"],
     "Generative AI": ["LLM", "Prompt Engineering", "RAG", "AI Agents"],
-    "Tools": ["Visual Studio", "VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
+    "Tools": ["Visual Studio", " VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
 };
 
 const Skills = () => {
