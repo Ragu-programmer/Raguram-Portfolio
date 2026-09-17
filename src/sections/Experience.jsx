@@ -3,33 +3,43 @@ import { motion } from 'framer-motion';
 
 const experiences = [
     {
-        role: "Project Engineer - Contract",
+        role: "Contractor",
+        company: "National Instruments",
+        date: "Jan 2026 - Aug 2026",
+        description: [
+            "Built software to monitor, analyze, and manage distributed measurement systems, delivering real-time telemetry and system monitoring for production users.",
+            "Developed automated regression test procedures and tools achieving 100% test code coverage, validating performance and ensuring reliable, defect-free operation.",
+            "Collaborated across cross-functional engineering teams to deliver customer-critical workflows under tight deadlines"
+        ]
+    },
+    {
+        role: "Contractor",
         company: "KLA India",
-        date: "Feb 2025 - Dec 2025",
+        date: "Sep 2024 - Dec 2025",
         description: [
-            "Developing scalable software features using C# .NET, WPF to enable multi-head and dual-stage functionality for measuring overlay in printed wafers during semiconductor fabrication.",
-            "Integrated a Static Code Analysis tool into the existing architecture and Jenkins CI/CD pipeline, to enforce high coding standards and clean code practices.",
-            "Resolving critical showstopper bugs during releases, while addressing key software Infrastructure team backlogs, enhancing overall system reliability and maintainability"
+            "Developed a C# .NET application to measure and characterize overlay in printed wafers for semiconductor fabrication metrology.",
+            "Drove root-cause resolution of release-blocking bugs each cycle and integrated static code analysis into the Jenkins CI/CD pipeline, reducing memory usage by 50%"
         ]
     },
     {
-        role: "Project Engineer",
+        role: "Intern",
         company: "Soliton Technologies Pvt Ltd",
-        date: "Jan 2024 - Feb 2025",
+        date: "Jan 2024 - Aug 2024",
         description: [
-            "Developed test-sequence logic, timing-validation modules, and automated compliance checks for the SoundWire (I2S) protocol validation suite.",
-            "Implemented core frontend and backend components for an IC and battery testing web application called SLE (SystemLink Enterprise), including advanced search, sorting, filtering, and summary-tile features that improved user efficiency.",
-            "Refactored and expanded test suites to achieve 100% automated test coverage, strengthening regression reliability and release confidence"
+            "Contributed to the Protocol Validation Suite (PVS) for I3C and SPI, developing and running tests to validate communication-protocol implementations against specification.",
+            "Built automation and tooling to support protocol conformance testing, debugging, and result reporting"
         ]
     },
     {
-        role: "Level-3 Embedded and IOT Team Member",
-        company: "iQube Innovation Centre - KCT",
-        date: "Sep 2021 - May 2024",
+        role: "Embedded and IoT Intern",
+        company: "iQube Innovation Forum - KCT",
+        date: "Mar 2021 - Dec 2023",
         description: [
-            "Built solutions using embedded systems for multiple real-world industrial problem statements.",
-            "Learned and Developed embedded firmware on AVR, STM-32 and PIC microcontrollers, covering peripheral integration, protocol communication, and hardware-software integration.",
-            "Participated in multiple national-level events like Smart India Hackathon-2022 conducted by Central Govt of India, Robocon 2023 conducted by DD Robocon and other inter-college level events"
+            "Developed low-level embedded C/C++ firmware for AVR, STM32 (ARM Cortex-M), and PIC32 — device drivers, hardware interfaces, interrupts, state machines, and fault handling.",
+            "Debugged issues at the firmware/hardware boundary across digital and analog hardware using oscilloscopes and logic analyzers to root-cause FW/HW faults.",
+            "Performed hardware bring-up and built communication over SPI, I2C, UART, and CAN; read schematics and datasheets to resolve integration issues.",
+            "Built home-automation and industrial IoT solutions using Arduino (Uno/Nano), ESP32, ESP32-CAM, ESP8266, and Raspberry Pi, integrating sensors and actuators for real-world monitoring and control.",
+            "Established multi-device communication between ESP32, Raspberry Pi, and Arduino nodes in master-slave configurations, enabling coordinated data collection and control across networked devices"
         ]
     }
 ];

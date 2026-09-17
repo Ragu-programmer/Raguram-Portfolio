@@ -4,7 +4,7 @@ import { User } from "lucide-react";
 
 const Hero = () => {
   const name = "Raguram Kasthurisamy";
-  const role = "Software Engineer";
+  const role = "Embedded Firmware Engineer";
 
   return (
     <section
@@ -127,16 +127,18 @@ const Hero = () => {
             }}
           >
             <p style={{ marginBottom: "1rem" }}>
-              Engineer with experience in <strong>enterprise software</strong>{" "}
-              for <strong>Semiconductor and Test & Measurement domains</strong>,
-              and a strong foundation in{" "}
-              <strong>embedded firmware and computer architecture</strong>. I
-              develop distributed backend services in C# .NET and
-              production-grade front-end applications in Angular, while also
-              building firmware and working under hardware constraints in
-              embedded environments. My work spans scalable enterprise
-              architectures and low-level system design as distinct but
-              complementary disciplines.
+              Engineer with hands-on experience across both{" "}
+              <strong>embedded firmware / systems</strong> and{" "}
+              <strong>enterprise software</strong>. On the embedded side, I build{" "}
+              <strong>firmware for microcontrollers</strong> and work under real
+              hardware constraints, backed by a strong foundation in{" "}
+              <strong>computer architecture</strong>. On the software side, I develop{" "}
+              <strong>distributed backend services in C# .NET</strong> and{" "}
+              <strong>production-grade front-end applications in Angular</strong>, with
+              experience across the{" "}
+              <strong>Semiconductor and Test &amp; Measurement</strong> domains. I treat
+              scalable enterprise architecture and low-level system design as distinct
+              but complementary disciplines.
             </p>
           </motion.div>
 

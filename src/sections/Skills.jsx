@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = {
-    "Embedded & IoT": ["Microcontroller Peripherals", "Bare-metal Programming", "Bootloaders", "Flash Programming", "Communication Protocols (I2C, SPI, USART)", "PCB Design", "Hardware Debugging"],
-    "Software Development": ["C# .NET", "Angular", "RxJS", "Razor Pages", "REST API Design", "Automation Testing", "CI/CD (Jenkins)"],
-    "Languages": ["C", "C#", "Python", "Typescript", "JavaScript", "HTML", "CSS"],
-    "Generative AI": ["LLM", "Prompt Engineering", "RAG", "MCP", "AI Agents"],
-    "Tools": ["Visual Studio", " VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Git", "Azure DevOps"]
+    "Embedded & IoT": ["Microcontroller Peripherals", "ARM Cortex-M (STM32), AVR, PIC32", "Bare-metal Programming", "RTOS-based Systems", "Bootloaders", "Flash Programming", "Low-level Device Drivers", "Communication Protocols (I2C, SPI, USART, CAN)", "ADC/DAC, Interrupts & Timing", "Arduino, ESP32 / ESP8266, Raspberry Pi", "Computer Architecture", "DMA and memory management", "PCB Design", "Hardware Bring-up", "Schematics & Datasheets", "Hardware Debugging"],
+    "Software Development": ["C# .NET", "Angular", "RxJS", "WPF", "REST API Design", "Automation Testing", "Unit & Integration Testing", "Static Code Analysis", "Agile", "CI/CD (Jenkins)"],
+    "Languages": ["C", "C++", "Python", "Typescript", "JavaScript", "HTML", "CSS", "Shell Scripting"],
+    "Generative AI": ["LLM", "Prompt Engineering", "RAG", "MCP", "AI Agents and Skills", "LLM-assisted Debugging"],
+    "Tools": ["Visual Studio", " VS Code", "Proteus Simulator", "STM32Cube IDE", "KiCAD", "Altium Designer", "Oscilloscopes & Logic Analyzers", "JTAG / GDB Debuggers", "Git / GitHub", "Azure DevOps", "Jira", "Linux & Windows"]
 };
 
 const Skills = () => {
