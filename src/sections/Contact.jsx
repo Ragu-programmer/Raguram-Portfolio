@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Linkedin, Github, Instagram, Send } from 'lucide-r
 
 const contactInfo = [
     { icon: <MapPin size={20} />, text: 'Coimbatore, Tamil Nadu, India' },
-    { icon: <Phone size={20} />, text: '+91 926687929', href: 'tel:+91926687929' },
+    { icon: <Phone size={20} />, text: '+1 857-351-1649', href: 'tel:+1 857-351-1649' },
     { icon: <Mail size={20} />, text: 'raguramk20@gmail.com', href: 'mailto:raguramk20@gmail.com' }
 ];
 
