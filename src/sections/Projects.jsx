@@ -5,50 +5,6 @@ import ProjectModal from '../components/ProjectModal';
 
 const projects = [
     {
-        title: "Desktop Application for Overlay Measurement in Semiconductor Wafers",
-        description: "A high-performance desktop application designed for overlay measurement in semiconductor wafers. Contributed to architecture and platform-level development to support precision measurement in semiconductor fabrication.",
-        tech: ["C# .NET", "WPF", "C++", "Jenkins", "Git"],
-        links: { github: "#", external: "#" },
-        type: "app",
-        timeline: "May 2025 - Dec 2025",
-        details: [
-            "Led the adoption of static code analysis tools (SonarQube, Cppcheck) across the division for C# and C++ projects, improving overall code quality and compliance by approximately 80%.",
-            "Drove feature-level task breakdown and timeline planning, enabling predictable execution and on-time delivery of all feature milestones.",
-            "Resolved critical show-stopper issues during release cycles, preventing delivery delays and ensuring stable, on-time releases.",
-            "Eliminated numerous compiler warnings and code smells, reducing technical debt and improving long-term maintainability and code safety.",
-            "Leveraged AI-driven automation capabilities that reduced manual effort and improved the overall efficiency of script generation.",
-        ]
-    },
-    {
-        title: "Desktop Application for Targets Identification in Semiconductor Wafers",
-        description: "A specialized desktop application used to accurately identify and validate targets on semiconductor wafers, enabling measurement workflows in semiconductor manufacturing.",
-        tech: ["C# .NET", "FlaUI", "Azure Pipelines", "Git"],
-        links: { github: "#", external: "#" },
-        type: "app",
-        timeline: "Jan 2025 - May 2025",
-        details: [
-            "Developed a utility to automatically generate UI automation tests for newly added test cases from a specified directory, reducing manual test development effort.",
-            "Implemented Azure Pipelines workflows to execute automated UI tests as part of CI, ensuring consistent validation and early defect detection on code changes.",
-            "Added and optimized FlaUI-based UI automation tests for newly introduced features, minimizing test execution time by half and reducing flaky test failures by approximately 50%.",
-            "Integrated new UI automation tests with Azure Test Suites and configured scheduled weekly and monthly test runs to introduce continuous quality monitoring and test execution consistency."
-        ]
-    },
-    {
-        title: "Web Application for Semiconductor Test Data Management and Visualization",
-        description: "A comprehensive full-stack software application designed to help manage, monitor, and analyze measurement systems in large-scale, distributed environments.",
-        tech: ["Angular", "RxJS", "TypeScript", "REST API", "Playwright"],
-        links: { github: "#", external: "#" },
-        type: "app",
-        timeline: "Sept 2024 - Jan 2025",
-        details: [
-            "Primarily contributed to scalable application design and development by enforcing coding standards and clean code practices, improving long-term maintainability and extensibility.",
-            "Designed and implemented table-based UI workflows with search, filtering, and summary tiles, improving data discoverability and user task efficiency by approximately 50%",
-            "Delivered critical UI/UX enhancements aligned with customer requirements, eliminating redundant user actions, and simplifying workflows.",
-            "Monitored and improved the performance of the application by removing unnecessary UI-triggered API calls, improving page response time by approximately 3 seconds.",
-            "Delivered features with 80%+ automated test coverage using Jasmine and Playwright, reducing regression defects and improving release stability."
-        ]
-    },
-    {
         title: "Custom Bootloader for STM 32 MCU",
         description:"The STM32 Microcontroller Bootloader is a robust and versatile firmware solution designed to simplify the software update process for STM32 microcontrollers.",
         tech: ["Embedded C", "STM32", "UART", "CAN", "C++"],
@@ -75,6 +31,19 @@ const projects = [
             "Created a tick generator using hardware timers and a deterministic task dispatcher.",
             "Designed task-control structures and interrupt-driven I/O routines without any RTOS.",
             "Demonstrated efficient scheduling, concurrency control, and memory-constrained design limits."
+        ]
+    },
+    {
+        title: "STM32-based Robot Actuator Controller",
+        description: "Built an STM32F446RE gripper actuator controller using PWM motor drive, quadrature encoder feedback, UART commands, and interrupt-based position updates.",
+        tech: ["C# .NET", "WPF", "C++", "Jenkins", "Git"],
+        links: { github: "#", external: "#" },
+        type: "app",
+        timeline: "July 2025 - Oct 2025",
+        details: [
+            "Developed closed-loop position-control firmware for an STM32F446RE robotic gripper actuator in modular C (HAL), integrating 20 kHz PWM motor drive, quadrature encoder feedback, a UART command interface, and an interrupt-driven 1 kHz control loop.",
+            "Redesigned the system from time-based open-loop actuation to encoder-feedback closed-loop control, improving positioning consistency ~5× and reducing motion variation from ~17% to within ±2%.",
+            "Tuned practical PD control with startup boost, deadzone compensation, velocity-aware arrival detection, software limits, and homing-settle calibration to handle actuator friction, inertia, and backlash."        
         ]
     },
     {
