@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Linkedin, Github, Instagram, Send } from 'lucide-react';
 
 const contactInfo = [
-    { icon: <MapPin size={20} />, text: 'Coimbatore, Tamil Nadu, India' },
+    { icon: <MapPin size={20} />, text: 'Boston, MA, United States' },
     { icon: <Phone size={20} />, text: '+1 857-351-1649', href: 'tel:+1 857-351-1649' },
-    { icon: <Mail size={20} />, text: 'raguramk20@gmail.com', href: 'mailto:raguramk20@gmail.com' }
+    { icon: <Mail size={20} />, text: 'kasthurisamy.r@northeastern.edu', href: 'kasthurisamy.r@northeastern.edu' }
 ];
 
 const socialLinks = [
