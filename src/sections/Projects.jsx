@@ -37,7 +37,7 @@ const projects = [
         title: "STM32-based Robot Actuator Controller",
         description: "Built an STM32F446RE gripper actuator controller using PWM motor drive, quadrature encoder feedback, UART commands, and interrupt-based position updates.",
         tech: ["C# .NET", "WPF", "C++", "Jenkins", "Git"],
-        links: { github: "#", external: "#" },
+        links: { github: "https://github.com/Ragu-programmer/STM-32_Motor_Controller/", external: "#" },
         type: "app",
         timeline: "July 2025 - Oct 2025",
         details: [
