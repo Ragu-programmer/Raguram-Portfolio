@@ -7,7 +7,7 @@ const experiences = [
         company: "Northeastern Electric Racing, Boston, MA",
         date: "Sep 2026 - Present",
         description: [
-            "Completed NER’s Firmware Launchpad onboarding program, building an STM32-based mini car starter project in embedded Rust with the Embassy async framework, driving GPIO, ADC, and I2C peripherals.",
+            "Completed NER’s Firmware Launchpad onboarding, building an STM32 mini car in embedded Rust and Embassy with GPIO, ADC, and I2C.",
             "Advanced to race car development, writing Rust/Embassy firmware for the electric race car’s STM32-based boards."
         ]
     },
@@ -26,9 +26,10 @@ const experiences = [
         company: "KLA India, Chennai, India",
         date: "Jan 2025 - Dec 2025",
         description: [
-            "Rebuilt legacy C++ MFC recipe editor in C#/.NET Blazor and migrated result viewer to C#/WPF for Archer 800 and ATL 200 overlay metrology tools, cutting startup time and memory use for a leading semiconductor foundry’s wafer-inspection workflow.",
-            "Introduced SonarQube to KLA’s Optical Metrology Division across ~1,700+ C#/C++ projects in Jenkins CI/CD, surfacing and resolving ~560+ defects; fixing all 360 undisposed resources it flagged cut application memory leakage by 50%.",
-            "Integrated Squish Coco code coverage, new to KLA, into 1,700+ C#/C++ project builds, automating previously manual coverage reports."
+            "Introduced SonarQube to KLA’s Optical Metrology Division across ~1,700+ C#/C++ projects in Jenkins CI/CD, enforcing warnings-as-errors and new quality rules that surfaced and resolved ~560+ defects, including the resource leaks behind unexplained memory growth.",
+            "Reduced application memory leakage by 50% by fixing all 360 undisposed resources flagged by static analysis, closing a long-open memory investigation in legacy metrology tool software.",
+            "Integrated Squish Coco code coverage, new to KLA, into builds for 1,700+ C# and C++ projects with the vendor, auto-generating coverage reports and replacing manual measurement so the SQA team could focus on closing test gaps.",
+            "Contributed features to the C++ MFC-to-Blazor recipe editor and C#/WPF result viewer migrations for Archer 800 and ATL 200 tools."
         ]
     },
     {
@@ -44,10 +45,10 @@ const experiences = [
     {
         role: "Embedded & IoT Intern",
         company: "iQube Innovation Forum, KCT, Coimbatore, India",
-        date: "Mar 2021 - Dec 2023",
+        date: "Mar 2021 - Apr 2024",
         description: [
             "Developed low-level embedded C/C++ firmware for AVR, STM32 (ARM Cortex-M), and PIC32 — device drivers, hardware interfaces, interrupts, state machines, and fault handling.",
-            "Eliminated 3-5 mm positioning drift in a DD Robocon India 2022 robot’s open-loop DC drive by proposing encoder-feedback motors and writing STM32 PID control firmware, helping the team clear the first two rounds of the national qualifier for ABU Robocon.",
+            "Eliminated 3-5 mm positioning drift in a DD Robocon India 2023 robot’s open-loop DC drive by proposing encoder-feedback motors and writing STM32 PID control firmware, helping the team clear the first two rounds of the national qualifier for ABU Robocon.",
             "Developed battery management firmware for the Robocon robot’s multi-cell Li-ion pack using BMS ICs, current sensing, and ADC measurements, tracking state of charge, battery health, and charge/discharge cycles to predict remaining runtime.",
             "Centralized lab control with an MQTT/Wi-Fi network of 10 ESP32/ESP8266 nodes driving relays for 40-50 appliances and 3 room doors.",
             "Owned electrical wiring and power distribution for the Robocon robot across 15+ PCBs, 20-25 sensors, and 10+ actuators, using oscilloscopes, logic analyzers, and bench testing to isolate faults and speed up team debugging."
