@@ -5,23 +5,50 @@ import ProjectModal from '../components/ProjectModal';
 
 const projects = [
     {
-        title: "Custom Bootloader for STM 32 MCU",
-        description:"The STM32 Microcontroller Bootloader is a robust and versatile firmware solution designed to simplify the software update process for STM32 microcontrollers.",
-        tech: ["Embedded C", "STM32", "UART", "CAN", "C++"],
-        links: { github: "https://github.com/Ragu-programmer/Custom-Bootloader-for-STM-32-MCU/tree/main", external: "#" },
+        title: "Bare-Metal UART Driver Study, STM32U575",
+        description: "Designed, implemented, and benchmarked three bare-metal USART drivers (polling, interrupt-driven, and DMA-based) on a Cortex-M33 to study how data-transfer strategy affects CPU load and data integrity.",
+        tech: ["Embedded C", "STM32U575", "Cortex-M33", "USART", "GPDMA", "Bare-Metal"],
+        links: { github: "https://github.com/Ragu-programmer/Device-Driver-Development-STM32-MCU", external: "#" },
         type: "embedded",
-        timeline: "Jan 2024 - May 2024",
+        timeline: "Sept 2026 - Oct 2026",
         details: [
-            "It offers support for both USART and CAN communication protocols, providing flexibility to accommodate a wide range of hardware configurations and use cases.",
-            "In addition, this project includes a Qt C++ Graphical User Interface (GUI) application that enhances the bootloader's functionality.",
-            "This GUI facilities the process of flashing images to the STM32 microcontroller, making the software update procedure even more user-friendly.",
-            "This offers Dual Communication Modes: Choose between USART and CAN communication protocols based on your hardware configuration, providing adaptability for different project requirements",
-            "This comes with Effortless Hex File Transfer: The GUI application, developed using Qt C++, allows you to parse and transmit hex files very quickly to the bootloader, streamlining software updates."
+            "Investigated how data-transfer strategy affects CPU load and data integrity on a Cortex-M33 by designing, implementing, and benchmarking three bare-metal USART drivers without HAL: polling, interrupt-driven, and DMA-based.",
+            "Built each tier at register level from the RM0456 reference manual, configuring RCC clocks, GPIO alternate functions, NVIC priorities, and GPDMA channels.",
+            "Used lock-free ring buffers for interrupt-driven I/O and circular GPDMA reception.",
+            "Benchmarked all three tiers on hardware, confirming CPU availability improved from polling to interrupts to DMA.",
+            "Cut CPU interrupts per 100-byte transfer from 100 to 1 with GPDMA, identifying DMA as the best fit for high-throughput streams."
+        ]
+    },
+    {
+        title: "STM32-based Robot Actuator Controller",
+        description: "Built an STM32F446RE gripper controller with PWM drive, quadrature encoders, UART commands, and interrupt-based position updates.",
+        tech: ["Embedded C", "STM32F446RE", "PWM", "Quadrature Encoder", "UART", "PD Control"],
+        links: { github: "https://github.com/Ragu-programmer/STM-32_Motor_Controller", external: "#" },
+        type: "embedded",
+        timeline: "Jun 2023 - Dec 2023",
+        details: [
+            "Developed closed-loop position-control firmware for an STM32F446RE robotic gripper actuator in modular C, integrating 20 kHz PWM motor drive, quadrature encoder feedback, a UART command interface, and an interrupt-driven 1 kHz control loop.",
+            "Transitioned from time-based open-loop actuation to encoder-feedback closed-loop position control, improving positioning consistency by ~5× and reducing motion variation from ~17% to within ±2%.",
+            "Tuned practical PD control with startup boost, dead zone compensation, velocity-aware arrival detection, software limits, and homing-settle calibration to handle actuator friction, inertia, and backlash."
+        ]
+    },
+    {
+        title: "Custom STM32 Bootloader",
+        description: "An STM32 bootloader for in-field firmware updates over UART/SPI, with a packet-based transfer protocol, CRC validation, and fault-tolerant recovery to prevent bricking.",
+        tech: ["Embedded C", "C++", "STM32", "UART", "SPI", "CRC", "Qt"],
+        links: { github: "https://github.com/Ragu-programmer/Custom-Bootloader-for-STM-32-MCU", external: "#" },
+        type: "embedded",
+        timeline: "May 2023 - Oct 2023",
+        details: [
+            "Developed an STM32 bootloader in C/C++ for in-field firmware updates over UART/SPI, with flash partitioning and a safe jump-to-application routine.",
+            "Designed a packet-based transfer protocol with error handling and retransmission for reliable firmware delivery.",
+            "Implemented CRC/checksum validation and a fault-tolerant recovery state machine to prevent bricking on failed or corrupted updates.",
+            "Built a companion Qt C++ GUI that parses hex files and transmits them to the bootloader, making firmware flashing quick and user-friendly."
         ]
     },
     {
         title: "Real-time scheduler",
-        description: "Implemented a cooperative real-time scheduler for PIC32 inspired by the RTScheduler architecture, featuring a determinstic task dispatcher.",
+        description: "Implemented a cooperative real-time scheduler for PIC32 inspired by the RTScheduler architecture, featuring a deterministic task dispatcher.",
         tech: ["C", "PIC32", "RTOS", "Data Structures"],
         links: { github: "#", external: "#" },
         type: "embedded",
@@ -31,19 +58,6 @@ const projects = [
             "Created a tick generator using hardware timers and a deterministic task dispatcher.",
             "Designed task-control structures and interrupt-driven I/O routines without any RTOS.",
             "Demonstrated efficient scheduling, concurrency control, and memory-constrained design limits."
-        ]
-    },
-    {
-        title: "STM32-based Robot Actuator Controller",
-        description: "Built an STM32F446RE gripper actuator controller using PWM motor drive, quadrature encoder feedback, UART commands, and interrupt-based position updates.",
-        tech: ["C# .NET", "WPF", "C++", "Jenkins", "Git"],
-        links: { github: "https://github.com/Ragu-programmer/STM-32_Motor_Controller/", external: "#" },
-        type: "app",
-        timeline: "July 2025 - Oct 2025",
-        details: [
-            "Developed closed-loop position-control firmware for an STM32F446RE robotic gripper actuator in modular C (HAL), integrating 20 kHz PWM motor drive, quadrature encoder feedback, a UART command interface, and an interrupt-driven 1 kHz control loop.",
-            "Redesigned the system from time-based open-loop actuation to encoder-feedback closed-loop control, improving positioning consistency ~5× and reducing motion variation from ~17% to within ±2%.",
-            "Tuned practical PD control with startup boost, deadzone compensation, velocity-aware arrival detection, software limits, and homing-settle calibration to handle actuator friction, inertia, and backlash."        
         ]
     },
     {
