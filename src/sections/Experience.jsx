@@ -33,7 +33,7 @@ const experiences = [
     },
     {
         role: "Intern",
-        company: "Soliton Technologies",
+        company: "Soliton Technologies, Coimbatore, India",
         date: "Jan 2024 - Aug 2024",
         description: [
             "Expanded Soliton’s I2C-only Protocol Validation Suite (PVS) to MIPI I3C by developing LabVIEW functional-compliance tests against the I3C specification, helping launch an I3C validation product sold through NI and showcased at MIPI Alliance Demo Day.",
@@ -43,7 +43,7 @@ const experiences = [
     },
     {
         role: "Embedded & IoT Intern",
-        company: "iQube Innovation Forum, KCT",
+        company: "iQube Innovation Forum, KCT, Coimbatore, India",
         date: "Mar 2021 - Dec 2023",
         description: [
             "Developed low-level embedded C/C++ firmware for AVR, STM32 (ARM Cortex-M), and PIC32 — device drivers, hardware interfaces, interrupts, state machines, and fault handling.",

@@ -127,18 +127,22 @@ const Hero = () => {
             }}
           >
             <p style={{ marginBottom: "1rem" }}>
-              Engineer with hands-on experience across both{" "}
-              <strong>embedded firmware / systems</strong> and{" "}
-              <strong>enterprise software</strong>. On the embedded side, I build{" "}
-              <strong>firmware for microcontrollers</strong> and work under real
-              hardware constraints, backed by a strong foundation in{" "}
-              <strong>computer architecture</strong>. On the software side, I develop{" "}
-              <strong>distributed backend services in C# .NET</strong> and{" "}
-              <strong>production-grade front-end applications in Angular</strong>, with
-              experience across the{" "}
-              <strong>Semiconductor and Test &amp; Measurement</strong> domains. I treat
-              scalable enterprise architecture and low-level system design as distinct
-              but complementary disciplines.
+              I'm pursuing an{" "}
+              <strong>M.S. in Electrical and Computer Engineering at Northeastern University</strong>,
+              where I write <strong>Rust/Embassy firmware</strong> for the STM32-based boards on
+              Northeastern Electric Racing's electric race car. I like working close to the
+              hardware: <strong>register-level drivers</strong> written straight from the
+              reference manual, <strong>bootloaders</strong>,{" "}
+              <strong>interrupt and DMA-driven I/O</strong>, and{" "}
+              <strong>closed-loop motor control</strong> on ARM Cortex-M.
+            </p>
+            <p>
+              Before grad school, I spent over two years in the{" "}
+              <strong>semiconductor and test &amp; measurement</strong> industries. I built{" "}
+              developed lab-scheduling software for National Instruments, and modernized{" "}
+              <strong>C#/.NET</strong> metrology tools at KLA while bringing static analysis and
+              code coverage into CI/CD across 1,700+ projects. That work shapes how I write
+              firmware: <strong>tested, measurable, and built to be maintained</strong>.
             </p>
           </motion.div>
 
